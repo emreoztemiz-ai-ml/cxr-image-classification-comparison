@@ -15,7 +15,7 @@ data/
 *.pt
 *.pth
 *.pkl
-
+!data/indirmeURL.txt
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
