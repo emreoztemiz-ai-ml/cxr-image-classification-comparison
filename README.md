@@ -8,3 +8,8 @@ Bu proje, göğüs röntgeni (CXR) görüntülerinden akciğer hastalıklarını
 ```bash
 git clone [https://github.com/emreoztemiz-ai-ml/cxr-image-classification-comparison.git](https://github.com/emreoztemiz-ai-ml/cxr-image-classification-comparison.git)
 cd cxr-image-classification-comparison
+
+2. Sanal ortam oluşturun ve bağımlılıkları yükleyin:
+python -m venv venv
+source venv/bin/activate  # Windows için: venv\Scripts\activate
+pip install -r requirements.txt
