@@ -1,0 +1,1 @@
+Data setini indirip Data Klasörünün içerisine ekleyiniz.
