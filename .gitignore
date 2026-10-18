@@ -15,7 +15,9 @@ data/
 *.pt
 *.pth
 *.pkl
-!data/indirmeURL.txt
+!data/COVID-19_Radiography_Dataset/indirmeURL.txt
+!data/OCT/indirmeURL.txt
+
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
