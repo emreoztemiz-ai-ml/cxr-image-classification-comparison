@@ -10,14 +10,22 @@ env/
 .env
 
 # Veri setleri ve model ağırlıkları (ÇOK ÖNEMLİ)
-data/
+# Veri setleri ve model ağırlıkları (ÇOK ÖNEMLİ)
+data/*
+!data/COVID-19_Radiography_Dataset/
+data/COVID-19_Radiography_Dataset/*
+!data/COVID-19_Radiography_Dataset/indirmeURL.txt
+!data/COVID-19_Radiography_Dataset/Readme.md
+
+!data/OCT/
+data/OCT/*
+!data/OCT/indirmeURL.txt
+!data/OCT/Readme.md
+
 *.h5
 *.pt
 *.pth
 *.pkl
-!data/COVID-19_Radiography_Dataset/indirmeURL.txt
-!data/OCT/indirmeURL.txt
-
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
