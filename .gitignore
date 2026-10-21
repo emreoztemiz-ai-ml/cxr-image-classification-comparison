@@ -17,8 +17,8 @@ data/COVID-19_Radiography_Dataset/*
 !data/COVID-19_Radiography_Dataset/indirmeURL.txt
 !data/COVID-19_Radiography_Dataset/Readme.md
 
-!data/OCT/
-data/OCT/*
+!data/OCT and Chest X-Ray/
+data/OCT and Chest X-Ray/*
 !data/OCT/indirmeURL.txt
 !data/OCT/Readme.md
 
