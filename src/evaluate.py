@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score
-import matplotlib.pyplot import plt
+import matplotlib.pyplot as plt
 import seaborn as sns
 
 def evaluate_model(model, dataloader, device, class_names):
