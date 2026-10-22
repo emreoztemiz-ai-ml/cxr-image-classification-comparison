@@ -12,15 +12,15 @@ env/
 # Veri setleri ve model ağırlıkları (ÇOK ÖNEMLİ)
 # Veri setleri ve model ağırlıkları (ÇOK ÖNEMLİ)
 data/*
-!data/COVID-19_Radiography_Dataset/
-data/COVID-19_Radiography_Dataset/*
-!data/COVID-19_Radiography_Dataset/indirmeURL.txt
-!data/COVID-19_Radiography_Dataset/Readme.md
+!data/dataset2/
+data/dataset2/*
+!data/dataset2/indirmeURL.txt
+!data/dataset2/Readme.md
 
-!data/OCT and Chest X-Ray/
-data/OCT and Chest X-Ray/*
-!data/OCT/indirmeURL.txt
-!data/OCT/Readme.md
+!data/dataset1/
+data/dataset1/*
+!data/dataset1/indirmeURL.txt
+!data/dataset1/Readme.md
 
 *.h5
 *.pt
