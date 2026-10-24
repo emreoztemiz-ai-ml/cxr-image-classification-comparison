@@ -1,7 +1,7 @@
-ÖNEMLİ UYARI BU UYARIYI OKUMADAN DEPOYU KLONLAMAYINIZ!!!!!!
+# ÖNEMLİ UYARI,OKUMADAN DEPOYU KLONLAMAYINIZ!
 Bu proje, makine öğrenmesi ve derin öğrenme yaklaşımlarının göğüs radyografilerinden görüntü sınıflandırma görevindeki performanslarını karşılaştırmak amacıyla geliştirilmiştir.
 
-**Uyarı:** Bu proje eğitim ve araştırma amaçlıdır. Elde edilen sonuçlar klinik olarak doğrulanmadan hastalık teşhisi veya tıbbi karar verme amacıyla kullanılmamalıdır.
+## **Uyarı:** Bu proje eğitim ve araştırma amaçlıdır. Elde edilen sonuçlar klinik olarak doğrulanmadan hastalık teşhisi veya tıbbi karar verme amacıyla kullanılmamalıdır.
 
 # Göğüs Radyografilerinde Görüntü Sınıflandırması
 
@@ -9,23 +9,26 @@ Bu proje, göğüs röntgeni (CXR) görüntülerinden akciğer hastalıklarını
 
 ## Kurulum ve Çalıştırma
 
-1. Depoyu klonlayın:
+ Depoyu klonlayın:
 ```bash
 git clone [https://github.com/emreoztemiz-ai-ml/cxr-image-classification-comparison.git](https://github.com/emreoztemiz-ai-ml/cxr-image-classification-comparison.git)
 cd cxr-image-classification-comparison
 ```
-2. Sanal ortam oluşturun ve bağımlılıkları yükleyin:
+ Sanal ortam oluşturun ve bağımlılıkları yükleyin:
+```bash
 python -m venv venv
 source venv/bin/activate  # Windows için: venv\Scripts\activate
 pip install -r requirements.txt
-
-3.  Data içerisinde yer alan URL adreslerinden ilgili veri setlerini indiriniz.
+```
+kLASÖR YAPISINI DÜZGÜN GÖSTEREBİLMEK İÇİN AŞAĞIDA BASH İÇERİSİNDE SUNULMUŞTUR.
+```bash
+  Data içerisinde yer alan URL adreslerinden ilgili veri setlerini indiriniz.
 ## cxr-image-classification-comparison/
 └── data/
     └── dataset1/
         ├── Normal/       <-- Mendeley'deki TÜM Normal CXR resimlerini buraya atmalısınız
         └── Pneumonia/    <-- Mendeley'deki TÜM Pneumonia (Bakteri/Virüs) CXR resimlerini buraya atmanız gerekir
-4.  dataset2 için Kaggle da Masks isimli klasörler ile herhangi bir gereksinimimiz bulunmamakta, bu sebeple onları görmezden gelebilirsiniz.
+  dataset2 için Kaggle da Masks isimli klasörler ile herhangi bir gereksinimimiz bulunmamakta, bu sebeple onları görmezden gelebilirsiniz.
 ## cxr-image-classification-comparison/
 └── data/
     └── dataset2/
@@ -34,7 +37,7 @@ pip install -r requirements.txt
         ├── Lung_Opacity/      <-- Kaggle'daki Lung_Opacity/Images içindeki tüm resimler
         └── Viral_Pneumonia/   <-- Kaggle'daki Viral Pneumonia/Images içindeki tüm resimler
     şeklinde yapıyı oluşturmalısınız.
-
+```
 
 ## Deneyleri Çalıştırma (Kullanım)
 
