@@ -32,4 +32,4 @@ Diğer tarafta ise Derin Öğrenme modellerinin (CNN, ResNet, EfficientNet) mima
 
 Asıl farkı yaratan ise Transfer Learning kullandığım ResNet-50 ve EfficientNet-B0 modelleri oldu. Bu modeller ImageNet üzerinde milyonlarca resim görerek eğitildikleri için, sadece şekil bulmayı değil, dokuları ayırt etmeyi zaten biliyorlardı. ResNet'in içindeki o kalıntı bağlantıları sayesinde model ne kadar derinleşirse derinleşsin eğitim grafiği pürüzsüz bir şekilde aşağı indi. Sonuç olarak, medikal bir görüntü sınıflandırma problemi çözüyorsak, pikselleri düzleştiren yaklaşımlar yerine uzamsal hiyerarşiyi koruyan mimariler kullanmamızın bir tercih değil, zorunluluk olduğunu bu projeyle anlamış oldum.
 " 
-#Yazımı okuduğunuz için Teşekkür Ederim.
+# Yazımı okuduğunuz için Teşekkür Ederim.
